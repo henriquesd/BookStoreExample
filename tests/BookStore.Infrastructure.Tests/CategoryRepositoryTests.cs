@@ -13,7 +13,7 @@ namespace BookStore.Infrastructure.Tests
         private readonly DbContextOptions<BookStoreDbContext> _options;
 
         /// <summary>
-        /// The CategoryRepository class only use the methods from the Repository class
+        /// The CategoryRepository class only use the methods from the Repository base class
         /// </summary>
         public CategoryRepositoryTests()
         {
